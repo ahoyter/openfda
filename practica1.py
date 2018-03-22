@@ -1,5 +1,6 @@
 import http.client
 import json
+#ejemplo consulta base datos.
 
 conn = http.client.HTTPSConnection("api.fda.gov")
 conn.request("GET", "/drug/label.json?search=acetylsalicylate&limit=20")
